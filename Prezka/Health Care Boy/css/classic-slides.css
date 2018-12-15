@@ -1,0 +1,12 @@
+.step {
+    position: relative;
+    width: 900px;
+    padding: 40px;
+    margin: 20px auto;
+
+    box-sizing:         border-box;
+
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+line-height: 1.5;\
+

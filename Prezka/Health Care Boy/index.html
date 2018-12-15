@@ -1,0 +1,101 @@
+<doctype html>
+<html>
+<head>
+        <link href="css/classic-slides.css" rel="stylesheet" />
+</head>
+<style>
+body {
+    background-color: #dfdfdf;
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+
+    
+}
+.present .animation-rotate-1 {
+    display: inline-block;
+    transform: rotate(-5deg);
+    transition: 0.5s;
+    transition-delay: 0.25s;
+}
+.present .animation-rotate-2 {
+    display: inline-block;
+    transform: rotate(-5deg);
+    transition: 0.5s;
+    transition-delay: 0.75s;
+}
+.present .animation-rotate-3 {
+    display: inline-block;
+    transform: rotate(-5deg);
+    transition: 0.5s;
+    transition-delay: 1.25s;
+}
+</style>
+<body>
+<div id="impress">
+    
+    <div class="step" data-x="0" data-y=0>
+        
+        <h1> <img src="https://hackyeah.pl/img/hackYeah_logo.gif" align="left"></img>Hack Yeah 2018</h1>
+        <h2>Task: HEALTH NEEDS MAPS</h2>
+        <p>Task by: Ministry of Health</p>
+        <p> Solution submitted by Δ Delta Force Δ team:<br>
+        Kacper Osiński, Szymon Grącki, Bartłomiej Zając</p>
+    
+    </div>
+    
+    <div class="step box" data-x=1200 data-y=0>
+        <img src="https://raw.githubusercontent.com/sgracki/hcboy/master/web/src/assets/elooo.png" height="600"></img>   
+        <h1> <b class="animation-rotate-1">Health</b> <b class="animation-rotate-2">Care</b> <b class="animation-rotate-3">Boy</b></h1>
+    </div>
+    
+    <div class="step" data-x=2400 data-y=0>
+            <p> <u>Problem</u>: people wasting time and resources on a lengthy process of choosing the right doctor, waiting for an appointment, etc. </p>
+    </div>
+
+    <div class="step" data-x=3600 data-y=0>
+            <p> <u>Solution</u>: aggregating data to present a short and easy answer to the question "Which doctor should i choose?" </p>
+    </div>
+    
+    <div class="step" data-x=3600 data-y=1000>
+            <p> We achieved this by: </p>
+            <p> Collecting data about location of doctors, their specializations, times of available appointment, and reviews. </p>
+            <p> And...</p>
+    </div>
+    
+    <div class="step" data-x=4800 data-y=1000 data-rotate-y=180>
+            <p> Ranking the results according to the combination of three variables: </p>
+            <ul><li>Proximity</li><li>Reviews</li><li>Waiting times</li></ul>
+    </div>
+
+    <div class="step" data-x=4800 data-y=2000 data-rotate-y=180>
+            <p> UX is incredibly important in this project. </p>
+            <p> After all, we wanted people to <i>stop</i> losing time and effort. </p>
+    </div>
+    
+    <div class="step" data-x=3600 data-y=2000 data-rotate-y=180>
+            <p> So we made sure to create a <i>crisp</i> and <i>juicy</i> UI </p>
+            <video src="assets/video.mp4" controls autoplay width="1000">
+                </video>
+    </div>
+    
+    <div class="step" data-x=2400 data-y=2000 data-rotate-y=180>
+            <p> And even added a Messenger chat bot as a second user interface. The point was to reach a wider target group and innovate.</p>
+            <img src = "assets/chat.png" align="middle" hspace=200></img>
+            <p>  The chatbot is available under this link: m.me/2303325646604508</p>
+    </div>
+
+    <div class="step" data-x=1200 data-y=2000 data-rotate-y=180>
+            <p> Thank you and have a nice day 😎 </p>
+    </div>
+    
+    <script src="js/impress.js"></script>
+    <script>    
+    impress().init();
+    
+    </script>
+
+</div>
+
+</body>
+</html>
+</doctype>
